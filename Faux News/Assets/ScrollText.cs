@@ -4,7 +4,7 @@ using System.Collections;
 public class ScrollText : MonoBehaviour {
 
 	public Transform parent;
-
+	
 	TextMesh text;
 	float textWidth;
 
@@ -17,8 +17,12 @@ public class ScrollText : MonoBehaviour {
 	ScrollText clone;
 	ScrollText parentText;
 
+	StoryHandlerScript story;
+
 	// Use this for initialization
 	void Start () {
+		GameObject go = GameObject.FindGameObjectWithTag ("StoryHandler");
+		story = go.GetComponent<StoryHandlerScript> ();
 		text = GetComponent<TextMesh> ();
 		textWidth = text.renderer.bounds.size.x;
 		resetX = parent.position.x + textWidth + 0.5f;
@@ -30,12 +34,19 @@ public class ScrollText : MonoBehaviour {
 		this.parentText = parentText;
 	}
 
+	public string getText() {
+		return text.text;
+	}
+
 	void OnMouseOver() {
 		scroll = true;
 		if (clone != null)
 			clone.scroll = true;
 		if (parentText != null)
 			parentText.scroll = true;
+		if (Input.GetButtonUp ("Fire1")) {
+			story.currentStory = this; //set "selected story" somewhere to this story
+		}
 	}
 
 	void OnMouseExit() {
