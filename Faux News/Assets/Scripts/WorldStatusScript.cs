@@ -46,6 +46,8 @@ public class WorldStatusScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		middleEastVal -= 0.1f * Time.deltaTime;
+
 		//Do a smooth Liner intERPolation between the good and bad colors
 		nAmSp.color = Color.Lerp (badColor, goodColor, nAmericaVal);
 		sAmSp.color = Color.Lerp (badColor, goodColor, sAmericaVal);

@@ -13,6 +13,7 @@ public class RatingScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		text.text = "Rating: " + (int)rating;
+		rating += 1 * Time.deltaTime;
 	}
 
 	public void AdjustRating(float amt) {

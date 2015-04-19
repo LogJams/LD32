@@ -24,15 +24,17 @@ public class GameHandlerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (currentStory != null) {
-			Debug.Log (currentStory.getText());
-		}
+		
 	}
 
 
 	public bool RunNews() { //run this weeks news!
 		for (int i = 0; i < storiesPerWeek; i++) {
+			Debug.Log (weeklyNews[i]);
+		}
+		for (int i = 0; i < storiesPerWeek; i++) {
 			if (weeklyNews[i] == null) {
+				Debug.Log (i);
 				return false;
 			}
 		}
@@ -41,6 +43,16 @@ public class GameHandlerScript : MonoBehaviour {
 		//find everything called "news clip" in scene, if it's not in WeeklyNews run a AdjustWorldNegative() on it? It could be slow
 
 		return true;
+	}
+
+	public string getCurrentText(int slot) {
+		weeklyNews [slot] = currentStory;
+		if (currentStory != null) {
+			string txt = currentStory.getText ();
+			currentStory = null;
+			return txt;
+		}
+		return "";
 	}
 
 	void Submit() { //private method called when the submit button is pressed

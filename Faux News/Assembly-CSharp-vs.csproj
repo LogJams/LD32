@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\NightlySlotScript.cs" />
      <Compile Include="Assets\Scripts\CredibilityScript.cs" />
      <Compile Include="Assets\Scripts\GameHandlerScript.cs" />
      <Compile Include="Assets\Scripts\RatingScript.cs" />

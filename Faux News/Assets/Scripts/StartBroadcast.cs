@@ -4,6 +4,7 @@ using System.Collections;
 public class StartBroadcast : MonoBehaviour {
 
 	public GameHandlerScript game;
+	public SpriteRenderer light;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,7 @@ public class StartBroadcast : MonoBehaviour {
 		if (Input.GetButtonUp ("Fire1")) { //Left click
 			if (game.RunNews() ) {
 				Debug.Log("Yeah! News!");
+				light.enabled = true;
 			} else { //there was an error!
 				Debug.Log ("Make sure there's no dead air!");
 			}
