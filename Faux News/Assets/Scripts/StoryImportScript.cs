@@ -4,8 +4,8 @@ using System.IO;
 
 public class StoryImportScript : MonoBehaviour {
 
-	string path = "Assets/Stories/stories.txt";
-	List<StoryScript> stories = new List<StoryScript> ();
+	string path = "Assets/Stories/testStories.txt";
+	List<GameObject> stories = new List<GameObject> ();
 
 	// Use this for initialization
 	void Start () {
@@ -14,28 +14,31 @@ public class StoryImportScript : MonoBehaviour {
 		string text = "";
 		string category = "";
 		int ratings = 0;
-		int[] worldState = {};
+		int[] worldState = new int[8];
 		int credibility = 0;
 		int index = 0;
-		int[] dependencies = {};
+		int[] dependencies = new int[5];
+		bool first = true;
 		do{
 			line = reader.ReadLine ();
-			if(line != null){
-				StoryScript story = new StoryScript();
+			if(line != null && !first){
+				GameObject obj = new GameObject();
+				obj.AddComponent<StoryScript> ();
+				StoryScript story = obj.GetComponent<StoryScript> ();
 				string[] subs = splitString (line, '|');
 
 				text = subs[0];
 				category = subs[1];
-				ratings = int.Parse ( subs[2]);
+				int.TryParse(subs[2], out ratings);
 				string[] worldStateS = splitString (subs[3],',');
 				for(int i = 0;  i < worldStateS.Length; i ++){
-					worldState[i] = int.Parse (worldStateS[i]);
+					int.TryParse (worldStateS[i], out worldState[i]);
 				}
-				credibility = int.Parse (subs[4]);
-				index = int.Parse (subs[5]);
+				int.TryParse (subs[4], out credibility);
+				int.TryParse (subs[5], out index);
 				string[] dependenciesS = splitString (subs[6],',');
 				for(int j = 0; j < dependenciesS.Length; j++){
-					dependencies[j] = int.Parse (dependenciesS[j]);
+					int.TryParse (dependenciesS[j], out dependencies[j]);
 				}
 
 				story.storyText = text;
@@ -54,8 +57,25 @@ public class StoryImportScript : MonoBehaviour {
 				story.index = index;
 				story.dependencies = dependencies;
 
-				stories.Add (story);
+				stories.Add (obj);
+				Debug.Log ("story");/*
+				Debug.Log (story.storyText);// = text;
+				Debug.Log (story.credibility);// = credibility;
+				Debug.Log (story.ratingEffect);// = ratings;
+				
+				Debug.Log (story.nAmericaEffect);// = worldState[0];
+				Debug.Log (story.sAmericaEffect);// = worldState[1];
+				Debug.Log (story.europeEffect);// = worldState[2];
+				Debug.Log (story.africaEffect);// = worldState[3];
+				Debug.Log (story.asiaEffect);// = worldState[4];
+				Debug.Log (story.oceaniaEffect);// = worldState[5];
+				Debug.Log (story.middleEastEffect);// = worldState[6];
+				Debug.Log (story.antarcticaEffect);// = worldState[7];
+				Debug.Log (story.index);// = index;
+				Debug.Log (story.dependencies);// = dependencies;*/
 			}
+
+			first = false;
 		}while(line != null);
 
 	}
