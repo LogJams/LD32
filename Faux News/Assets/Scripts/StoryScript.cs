@@ -8,14 +8,17 @@ public class StoryScript : MonoBehaviour {
 	public float ratingEffect; //this can either add to a % rating or to a total rating against fake stations or a score
 	//we can store the world effects as an array with set positions, as a dictionary with name lookup, or as a list of variables
 	//range of (-1, 1) added to the current country effects
-	public float nAmericaEffect;
-	public float sAmericaEffect;
-	public float europeEffect;
-	public float africaEffect;
-	public float asiaEffect;
-	public float oceaniaEffect;
-	public float middleEastEffect;
-	public float antarcticaEffect;
+	public int nAmericaEffect;
+	public int sAmericaEffect;
+	public int europeEffect;
+	public int africaEffect;
+	public int asiaEffect;
+	public int oceaniaEffect;
+	public int middleEastEffect;
+	public int antarcticaEffect;
+
+	public int index;
+	public int[] dependencies;
 
 	TextMesh text;
 	float textWidth;
