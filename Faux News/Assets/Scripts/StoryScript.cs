@@ -1,28 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ScrollText : MonoBehaviour {
+public class StoryScript : MonoBehaviour {
 
-	public Transform parent;
-	
+	public string storyText; //the actual story text. It could also be stored in the TextMesh
+	public float credibility; //credibility effect of the story in the range (-1, 1)
+	public float ratingEffect; //this can either add to a % rating or to a total rating against fake stations or a score
+	//we can store the world effects as an array with set positions, as a dictionary with name lookup, or as a list of variables
+	//range of (-1, 1) added to the current country effects
+	public float nAmericaEffect;
+	public float sAmericaEffect;
+	public float europeEffect;
+	public float africaEffect;
+	public float asiaEffect;
+	public float oceaniaEffect;
+	public float middleEastEffect;
+	public float antarcticaEffect;
+
 	TextMesh text;
 	float textWidth;
-
 	float scrollSpeed = 1; //units/second
 	float resetX;
 	bool repeat = false;
 	public bool scroll = false;
+	public Transform parent;
 	BoxCollider2D box;
 
-	ScrollText clone;
-	ScrollText parentText;
+	StoryScript clone;
+	StoryScript parentText;
 
-	StoryHandlerScript story;
+	GameHandlerScript story;
 
 	// Use this for initialization
 	void Start () {
+//		text.text = storyText;
 		GameObject go = GameObject.FindGameObjectWithTag ("StoryHandler");
-		story = go.GetComponent<StoryHandlerScript> ();
+		story = go.GetComponent<GameHandlerScript> ();
 		text = GetComponent<TextMesh> ();
 		textWidth = text.renderer.bounds.size.x;
 		resetX = parent.position.x + textWidth + 0.5f;
@@ -30,7 +43,7 @@ public class ScrollText : MonoBehaviour {
 		box.size = new Vector2 ((textWidth + 0.6f) * 10, text.renderer.bounds.size.y*10);
 	}
 
-	public void setParent(ScrollText parentText) {
+	public void setParent(StoryScript parentText) {
 		this.parentText = parentText;
 	}
 
@@ -67,7 +80,7 @@ public class ScrollText : MonoBehaviour {
 				Vector3 npos = newPos;
 				npos.x = resetX;
 				GameObject go = (GameObject)Instantiate (this.gameObject, npos, Quaternion.identity);
-				clone = go.GetComponent<ScrollText>();
+				clone = go.GetComponent<StoryScript>();
 				clone.setParent (this);
 			} else if (newPos.x + textWidth < parent.position.x) {
 			Destroy (this.gameObject);

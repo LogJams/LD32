@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: cb72998a67afa2547b472e57206117d6
+guid: 3fce00280e40342448eade6d5fe836ce
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Sliced Background_0
-    21300002: Sliced Background_1
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,11 +27,11 @@ TextureImporter:
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,26 +42,6 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: Sliced Background_0
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 220
-        width: 51
-        height: 198
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sliced Background_1
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 220
-        width: 107
-        height: 198
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 

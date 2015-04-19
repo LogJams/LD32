@@ -1,9 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ScrollText.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StartBroadcast.cs">
     <Files>
-      <File FileName="Assets\ScrollText.cs" Line="25" Column="50" />
-      <File FileName="Assets\StoryHandlerScript.cs" Line="16" Column="39" />
+      <File FileName="Assets\Scripts\StartBroadcast.cs" Line="21" Column="5" />
+      <File FileName="Assets\Scripts\StoryScript.cs" Line="54" Column="18" />
+      <File FileName="Assets\Scripts\CredibilityScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RatingScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WorldStatusScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameHandlerScript.cs" Line="41" Column="127" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
