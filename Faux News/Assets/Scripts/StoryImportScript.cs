@@ -4,7 +4,7 @@ using System.IO;
 
 public class StoryImportScript : MonoBehaviour {
 
-	string path = "Assets/Stories/testStories.txt";
+	string path = "Assets/Stories/stories.txt";
 	List<GameObject> stories = new List<GameObject> ();
 
 	// Use this for initialization
@@ -23,8 +23,8 @@ public class StoryImportScript : MonoBehaviour {
 			line = reader.ReadLine ();
 			if(line != null && !first){
 				GameObject obj = new GameObject();
-				obj.AddComponent<StoryScript> ();
-				StoryScript story = obj.GetComponent<StoryScript> ();
+				obj.AddComponent<StoryHolderScript> ();
+				StoryHolderScript story = obj.GetComponent<StoryHolderScript> ();
 				string[] subs = splitString (line, '|');
 
 				text = subs[0];
