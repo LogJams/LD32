@@ -13,18 +13,24 @@ public class GameHandlerScript : MonoBehaviour {
 	public WorldStatusScript world;
 
 	
-	StoryScript[] weeklyNews; //list of 10 stories being shown for the week
-
+	public StoryScript[] weeklyNews; //list of 10 stories being shown for the week
+	public NightlySlotScript[] slots;
 
 	// Use this for initialization
 	void Start () {
 		weeklyNews = new StoryScript[storiesPerWeek];
-
+		slots = GetComponentsInChildren<NightlySlotScript> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		for (int i = 0; i < storiesPerWeek; i++) {
+			int indexer = i;
+			if (weeklyNews[indexer] != null)
+				slots[i].setText(weeklyNews[indexer].getText ());
+			else
+				slots[i].setText ("");
+		}
 	}
 
 

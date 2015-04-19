@@ -54,6 +54,10 @@ public class StoryScript : MonoBehaviour {
 		return text.text;
 	}
 
+	public void setText(string txt) {
+		text.text = txt;
+	}
+
 	void OnMouseOver() {
 		scroll = true;
 		if (clone != null)
@@ -85,8 +89,9 @@ public class StoryScript : MonoBehaviour {
 				GameObject go = (GameObject)Instantiate (this.gameObject, npos, Quaternion.identity);
 				clone = go.GetComponent<StoryScript>();
 				clone.setParent (this);
+				clone.repeat = true;
 			} else if (newPos.x + textWidth < parent.position.x) {
-			Destroy (this.gameObject);
+				newPos.x = resetX + 0.5f;
 			}
 			transform.position = newPos;
 		}

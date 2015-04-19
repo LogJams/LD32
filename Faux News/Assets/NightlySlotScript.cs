@@ -33,19 +33,27 @@ public class NightlySlotScript : MonoBehaviour {
 		}
 	}
 
+	public void setText(string txt) {
+		fullStory = txt;
+		shortenStory ();
+	}
+
 	void shortenStory() {
-		shortenedStory = fullStory;
-		text.text = shortenedStory;
-		int index = shortenedStory.Length;
-		while (text.renderer.bounds.size.x > fieldWidth && index > 0) {
-			index --;
-			shortenedStory = fullStory.Substring(0, index);
+		text.text = fullStory;
+		if (fullStory.Length > 0) {
+			shortenedStory = fullStory;
+			text.text = shortenedStory;
+			int index = shortenedStory.Length;
+			while (text.renderer.bounds.size.x > fieldWidth && index > 0) {
+				index --;
+				shortenedStory = fullStory.Substring(0, index);
+				text.text = shortenedStory;
+			}
+			shortenedStory = fullStory.Substring(0, index) + "\n"
+				+ fullStory.Substring (index, Mathf.Min (index, fullStory.Length - index)) + "\n"
+					+ fullStory.Substring (index + Mathf.Min (index - 3, fullStory.Length - index), Mathf.Min (index - 3, fullStory.Length - 2*index)) + "...";
+				
 			text.text = shortenedStory;
 		}
-		shortenedStory = fullStory.Substring(0, index) + "\n"
-			+ fullStory.Substring (index, Mathf.Min (index, fullStory.Length - index)) + "\n"
-				+ fullStory.Substring (index + Mathf.Min (index - 3, fullStory.Length - index), Mathf.Min (index - 3, fullStory.Length - 2*index)) + "...";
-
-		text.text = shortenedStory;
 	}
 }
