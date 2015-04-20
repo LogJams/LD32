@@ -7,8 +7,10 @@ public class StoryImportScript : MonoBehaviour {
 	string path = "Assets/Stories/stories.txt";
 	List<GameObject> stories = new List<GameObject> ();
 
+	List<GameObject> availableStories;
+
 	// Use this for initialization
-	void Start () {
+	public void Load () {
 		StreamReader reader = new StreamReader (path);
 		string line = "";
 		string text = "";
@@ -77,12 +79,20 @@ public class StoryImportScript : MonoBehaviour {
 
 			first = false;
 		}while(line != null);
-
+		availableStories = new List<GameObject> (stories); //copy stories
 	}
 	
 	// Update is called once per frame
-	StoryScript[] GetRandomStories(int numberToGet) {
-		return null;
+	public StoryHolderScript[] GetRandomStories(int numberToGet) {
+		if (availableStories.Count < numberToGet)
+			return null;
+		StoryHolderScript[] holders = new StoryHolderScript[numberToGet];
+		for (int i = 0; i < numberToGet; i++) {
+			int rand = Random.Range (0, availableStories.Count);
+			holders[i] = availableStories[rand].GetComponent<StoryHolderScript>();
+			availableStories.RemoveAt (rand);
+		}
+		return holders;
 	}
 
 	string[] splitString(string items, char delimiter){

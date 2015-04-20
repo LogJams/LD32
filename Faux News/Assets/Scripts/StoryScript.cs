@@ -35,15 +35,21 @@ public class StoryScript : MonoBehaviour {
 	GameHandlerScript story;
 
 	// Use this for initialization
-	void Start () {
-//		text.text = storyText;
+	void Awake () {
 		GameObject go = GameObject.FindGameObjectWithTag ("StoryHandler");
 		story = go.GetComponent<GameHandlerScript> ();
 		text = GetComponent<TextMesh> ();
+		box = GetComponent<BoxCollider2D> ();
+		storyText = text.text;
+		init ();
+	}
+
+	void init() {
+		text.text = storyText;
 		textWidth = text.renderer.bounds.size.x;
 		resetX = parent.position.x + textWidth + 0.5f;
-		box = GetComponent<BoxCollider2D> ();
 		box.size = new Vector2 ((textWidth + 0.6f) * 10, text.renderer.bounds.size.y*10);
+		box.center = new Vector2 (box.size.x / 2 - 2, 0);
 	}
 
 	public void setParent(StoryScript parentText) {
@@ -56,6 +62,34 @@ public class StoryScript : MonoBehaviour {
 
 	public void setText(string txt) {
 		text.text = txt;
+	}
+
+	void SetStoryAll(StoryHolderScript s) {
+		SetStory (s);
+		if (clone != null)
+			clone.SetStory (s);
+		if (parentText != null)
+			parentText.SetStory (s);
+	}
+
+	public void SetStory(StoryHolderScript s) {
+		storyText = s.storyText;
+		credibility = s.credibility; //credibility effect of the story in the range (-1, 1)
+		ratingEffect = s.ratingEffect; //this can either add to a % rating or to a total rating against fake stations or a score
+		//we can store the world effects as an array with set positions, as a dictionary with name lookup, or as a list of variables
+		//range of (-1, 1) added to the current country effects
+		nAmericaEffect = s.nAmericaEffect;
+		sAmericaEffect = s.sAmericaEffect;
+		europeEffect = s.europeEffect;
+		africaEffect = s.africaEffect;
+		asiaEffect = s.asiaEffect;
+		oceaniaEffect = s.oceaniaEffect;
+		middleEastEffect = s.middleEastEffect;
+		antarcticaEffect = s.antarcticaEffect;
+		
+		int index = s.index;
+		int[] dependencies = s.dependencies;
+		init ();
 	}
 
 	void OnMouseOver() {

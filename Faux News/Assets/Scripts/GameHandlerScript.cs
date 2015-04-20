@@ -16,10 +16,26 @@ public class GameHandlerScript : MonoBehaviour {
 	public StoryScript[] weeklyNews; //list of 10 stories being shown for the week
 	public NightlySlotScript[] slots;
 
+	StoryImportScript import;
+	public StoryHandlerScript handler;
+
+	public StoryScript[] storyReels;
+
 	// Use this for initialization
 	void Start () {
+		import = GetComponent<StoryImportScript> ();
+		import.Load ();
 		weeklyNews = new StoryScript[storiesPerWeek];
 		slots = GetComponentsInChildren<NightlySlotScript> ();
+		storyReels = handler.allStories;
+		init ();
+	}
+
+	void init() {
+		StoryHolderScript[] newsStories = import.GetRandomStories (storyReels.Length); //we should make this static...
+		for (int i = 0; i < storyReels.Length; i++) {
+			storyReels[i].SetStory(newsStories[i]);
+		}
 	}
 	
 	// Update is called once per frame
@@ -36,18 +52,13 @@ public class GameHandlerScript : MonoBehaviour {
 
 	public bool RunNews() { //run this weeks news!
 		for (int i = 0; i < storiesPerWeek; i++) {
-			Debug.Log (weeklyNews[i]);
-		}
-		for (int i = 0; i < storiesPerWeek; i++) {
 			if (weeklyNews[i] == null) {
-				Debug.Log (i);
 				return false;
 			}
 		}
 		Submit (); //submit stories
 		//adjust for penalties of not showing certain clips
 		//find everything called "news clip" in scene, if it's not in WeeklyNews run a AdjustWorldNegative() on it? It could be slow
-
 		return true;
 	}
 

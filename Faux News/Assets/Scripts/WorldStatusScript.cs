@@ -46,8 +46,6 @@ public class WorldStatusScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		middleEastVal -= 0.1f * Time.deltaTime;
-
 		//Do a smooth Liner intERPolation between the good and bad colors
 		nAmSp.color = Color.Lerp (badColor, goodColor, nAmericaVal);
 		sAmSp.color = Color.Lerp (badColor, goodColor, sAmericaVal);
@@ -60,14 +58,14 @@ public class WorldStatusScript : MonoBehaviour {
 
 	}
 
-	public void adjustWorld(StoryScript story) {
-		nAmericaVal += story.nAmericaEffect;
-		sAmericaVal += story.sAmericaEffect;
-		europeVal += story.europeEffect;
-		africaVal += story.africaEffect;
-		asiaVal += story.asiaEffect;
-		oceaniaVal += story.oceaniaEffect;
-		middleEastVal += story.middleEastEffect;
-		antarcticaVal += story.antarcticaEffect;
+	public void adjustWorld(StoryScript story) { //convert ints to floats
+		nAmericaVal += story.nAmericaEffect/100f;
+		sAmericaVal += story.sAmericaEffect/100f;
+		europeVal += story.europeEffect/100f;
+		africaVal += story.africaEffect/100f;
+		asiaVal += story.asiaEffect/100f;
+		oceaniaVal += story.oceaniaEffect/100f;
+		middleEastVal += story.middleEastEffect/100f;
+		antarcticaVal += story.antarcticaEffect/100f;
 	}
 }

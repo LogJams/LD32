@@ -1,101 +1,101 @@
 News Story|Category|Rating Change|World State Change |Bullshit Change|Index|Dependencies
-Nicholas Cage Ravages Mexico|Headliner||||0|null
-U.S. Mint to get rid of all coins but pennies|Headliner||||1|null
-"U.S. Soldier found on Ulawa Island, thinks World War II is still going on"|Headliner||||2|null
-Faux New accused of being too informative|Headliner||||3|null
-Study finds 90s weren?t 10 years ago|Filler?||||4|null
-Yu-Gi-Oh Game won with Time Wizard|Filler||||5|null
-Study finds Bulbasaur best starter|Filler||||6|null
-"Germany takes over EU, creates Socialist Worker State"|Headliner||||7|null
-Carl XVI Gustaf celebrates birthday with Turkey hat|Celebrity gossip||||8|null
-Discovery Channel accidently airs 36 hours of elephant porn|Headliner||||9|null
-Research proves Darth Vader might be Luke Skywalker?s father|Filler||||10|null
-Werner Herzog to narrate Harry Potter spinoff ?Fantastic Beasts and Where to Find Them?|Filler||||11|null
-Benedict Cumberbatch learns to poach an egg and rhinoceroses|Celebrity gossip||||12|null
-EA releases pre-order bonuses for unannounced game|Filler||||13|null
-Eminem discovered to not be full of chocolate|Celebrity gossip||||14|null
-Rick Allen regains left arm in exchange for legs|Celebrity gossip||||15|null
-Seal (singer) attacked by shark while vacationing in Hawaii|Celebrity gossip||||16|null
-Kanye West thanks self in acceptance speech|Celebrity gossip||||17|null
-Peter Jackson to release 6 movie series adapted from the Silmarillion|Filler||||18|null
-Florida man loses pet alligator amongst lawn decorations|Filler||||19|null
-Quebec attacked by rest of Canada|Headliner||||20|null
-Lupus epidemic breaks out in Sweden and Transylvania simultaneously|Headliner||||21|null
-Stephen Hawking killed by AI he created to prove that AI will end humanity|Headliner||||22|null
-Gangnam Style on loop|Filler||||23|null
-Michael J Fox disappointed after opening recently shaken soda|Celebrity gossip||||24|null
-"Man thinks he is a chipmunk, becomes enraged and attacks wife uts"|Filler||||25|null
-Taylor Swift?s ex-boyfriend writes breakup song|Filler||||26|null
-Argentina man debates whether or not to eat another donut|Filler||||27|null
-Justin Bieber does something dumb|Celebrity gossip||||28|null
-Neil Degrasse Tyson takes up career as comic book writer|Celebrity gossip||||29|null
-Number of licks to get to the center of a tootsie pop found|Filler||||30|null
-"Man depressed after eating entire cake, buys second cake"|Filler||||31|null
-Danny Tamberelli finally figured ?it? out|Celebrity gossip||||32|null
-Marvel to add Florida Man to the MCU|Filler||||33|null
-"Man watches new Star Wars trailer, excited to see ?That silly rabbit guy?"|Filler||||34|null
-Kool-aid man breaks down Berlin Wall|Headliner||||35|null
-"Bloods and Crips unite to form the Saints, now wear purple"|Headliner||||36|null
-"David Bowie kidnaps child, now hiding in a labyrinth"|Celebrity gossip||||37|null
-"Software Developer discovers he is a literary genius, uses it to make fake news headlines"|Filler||||38|null
-"Mechanical Engineer discovers she is tired, can?t think straight enough to tell her friends"|Filler||||39|null
-Cannibal argues that he eats vegan|Filler||||40|null
-"Man exposes self in park, receives round of applause"|Filler||||41|null
-Gay men can?t park straight|Filler||||42|null
-Discovery Channel accidentally airs Shart Week|Filler||||43|null
-"1,000,000 year old twinkie found on shelf"|Filler||||44|null
-"Japanese man had bad day, commits to playing sudoku "|Filler||||45|null
-Arnold Schwarzenegger admits to having a tumor|Celebrity gossip||||46|null
-PLEASE NOTICE ME SENPAI!|Filler????||||47|null
-Polish teacher confuses students when talking about Corba.|Filler||||48|null
-"Grandma sends Nigerian prince $50, get $5,000,000 in return"|Filler||||49|null
-Puppy orphanage burns down|Filler||||50|null
-Kim Jong Un immigrates to South Korea for faster internet speeds|Headliner||||51|null
-Wildfire Spreading across Mexico|Headliner||||52|null
-Kaiju Attack Underway in Tokyo|Headliner||||53|null
-Siberia overrun by an army of man-mantises |Headliner||||54|null
-Putin reforms Soviet Union|Headliner||||55|null
-German European Union at war with Neo-Soviet Union over ownership of Poland|||||56|null
-Oregon Government taken over by Neo-Nazi Party|Headliner||||57|null
-Super Swarm of Bees (?) Engulfing South America|Headliner||||58|null
-Mobile Boxcar Village formed by California Hobos|Filler||||59|null
-Bro with monster tattoo claims Rockstar addiction|Filler||||60|null
-"Brawlpunk fans disappointed by repetitive,, simplistic gameplay"|Filler||||61|null
-Diet pill recall after man implodes|Filler||||62|null
-32 dead in ball-pit accident|Filler||||63|null
-"Poland declares independence, summons Cthulhu"|Headliner||||64|null
-British coast raided by Vikings|Headliner||||65|null
-Cactus gains sentience|Filler||||66|null
-"Man?s consciousness put into a box, he does not want to be a box"|Filler||||67|null
-Salem woman accused of being a witch after showing he friend cloud computing|Filler||||68|null
-Bear Grylls killed by new species of anteater|Filler||||69|null
-"Michael Jordan experiences concussion, loses memory of Space Jam"|Celebrity gossip||||70|null
-Super Hero experiences pain for the first time|Filler||||71|null
-"Man proposes to girl, what she does next will shock you"|Filler||||72|null
-African village destroyed by garbage fire|Headliner||||73|null
-Tasmanian Devil in negotiations with Devil on territory agreement|Filler||||74|null
-"Airplane found to be filled with snakes, pilots delay flight"|Filler||||75|null
-Wizard escapes 4th dimension|Filler||||76|null
-"Hundreds of monkeys typewrite Romeo & Juliet, accused of plagiarism "|Filler||||77|null
-"Tin foil hats are a health hazard, study finds"|Filler||||78|null
-Man discovers that 39 monkeys will fit into a barrel|Filler||||79|null
-Bears wearing bullet-proof vests roam the streets of Detroit|Headliner||||80|null
-Mutant badgers burning women and raping churches in Utah|???||||81|null
-Nerds riot over new Aquaman costume|Filler||||82|null
-"Aliens land in Johannesburg, local population steals spaceship"|Headliner||||83|null
-Blood sacrifice in India opens portal to hell|Headliner?||||84|null
-Dr. Mario sued for not being a real doctor|Filler||||85|null
-"Man attempts to aid South America with an influx of bees, it does not help"|Filler||||86|null
-Sentient Cacti form colony in the Mojave desert|Headliner||||87|null
-Sentient Cacti found to have hive mind |Headliner||||88|null
-Sentient Cacti invade Las Vegas|Headliner||||89|null
-Vampire claims bloodbank fired him due to supernatural discrimination|Filler||||90|null
-Nevada Werewolves concerned over silver content in water supply |Filler||||91|null
-New Zealand goats unite in the streets of Wellington|Headliner||||92|null
-Faux cancels popular show Butterfly much to fans dismay|Filler||||93|null
-Study finds not being a fat piece of shit reduces rate of heart failure|Filler||||94|null
-50 year old woman gives birth to 70 year old baby|Filler||||95|null
-"Large fire destroys New Jersey, nation rejoices"|Headliner||||96|null
-Whoopi Goldberg regrows eyebrows|Celebrity gossip||||97|null
-Ground control regains contact with Major Tom|Filler||||98|null
-Children are ?horrid little beasts? study finds|Filler||||99|null
+Nicholas Cage Ravages Mexico|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|0|null
+U.S. Mint to get rid of all coins but pennies|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|1|null
+"U.S. Soldier found on Ulawa Island, thinks World War II is still going on"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|2|null
+Faux New accused of being too informative|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|3|null
+Study finds 90s weren?t 10 years ago|Filler?|2|-1,-1,-1,-1,-1,-1,-1,-1|1|4|null
+Yu-Gi-Oh Game won with Time Wizard|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|5|null
+Study finds Bulbasaur best starter|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|6|null
+"Germany takes over EU, creates Socialist Worker State"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|7|null
+Carl XVI Gustaf celebrates birthday with Turkey hat|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|8|null
+Discovery Channel accidently airs 36 hours of elephant porn|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|9|null
+Research proves Darth Vader might be Luke Skywalker?s father|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|10|null
+Werner Herzog to narrate Harry Potter spinoff ?Fantastic Beasts and Where to Find Them?|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|11|null
+Benedict Cumberbatch learns to poach an egg and rhinoceroses|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|12|null
+EA releases pre-order bonuses for unannounced game|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|13|null
+Eminem discovered to not be full of chocolate|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|14|null
+Rick Allen regains left arm in exchange for legs|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|15|null
+Seal (singer) attacked by shark while vacationing in Hawaii|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|16|null
+Kanye West thanks self in acceptance speech|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|17|null
+Peter Jackson to release 6 movie series adapted from the Silmarillion|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|18|null
+Florida man loses pet alligator amongst lawn decorations|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|19|null
+Quebec attacked by rest of Canada|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|20|null
+Lupus epidemic breaks out in Sweden and Transylvania simultaneously|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|21|null
+Stephen Hawking killed by AI he created to prove that AI will end humanity|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|22|null
+Gangnam Style on loop|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|23|null
+Michael J Fox disappointed after opening recently shaken soda|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|24|null
+"Man thinks he is a chipmunk, becomes enraged and attacks wife uts"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|25|null
+Taylor Swift?s ex-boyfriend writes breakup song|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|26|null
+Argentina man debates whether or not to eat another donut|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|27|null
+Justin Bieber does something dumb|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|28|null
+Neil Degrasse Tyson takes up career as comic book writer|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|29|null
+Number of licks to get to the center of a tootsie pop found|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|30|null
+"Man depressed after eating entire cake, buys second cake"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|31|null
+Danny Tamberelli finally figured ?it? out|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|32|null
+Marvel to add Florida Man to the MCU|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|33|null
+"Man watches new Star Wars trailer, excited to see ?That silly rabbit guy?"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|34|null
+Kool-aid man breaks down Berlin Wall|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|35|null
+"Bloods and Crips unite to form the Saints, now wear purple"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|36|null
+"David Bowie kidnaps child, now hiding in a labyrinth"|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|37|null
+"Software Developer discovers he is a literary genius, uses it to make fake news headlines"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|38|null
+"Mechanical Engineer discovers she is tired, can?t think straight enough to tell her friends"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|39|null
+Cannibal argues that he eats vegan|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|40|null
+"Man exposes self in park, receives round of applause"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|41|null
+Gay men can?t park straight|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|42|null
+Discovery Channel accidentally airs Shart Week|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|43|null
+"1,000,000 year old twinkie found on shelf"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|44|null
+"Japanese man had bad day, commits to playing sudoku "|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|45|null
+Arnold Schwarzenegger admits to having a tumor|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|46|null
+PLEASE NOTICE ME SENPAI!|Filler????|2|-1,-1,-1,-1,-1,-1,-1,-1|1|47|null
+Polish teacher confuses students when talking about Corba.|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|48|null
+"Grandma sends Nigerian prince $50, get $5,000,000 in return"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|49|null
+Puppy orphanage burns down|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|50|null
+Kim Jong Un immigrates to South Korea for faster internet speeds|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|51|null
+Wildfire Spreading across Mexico|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|52|null
+Kaiju Attack Underway in Tokyo|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|53|null
+Siberia overrun by an army of man-mantises |Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|54|null
+Putin reforms Soviet Union|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|55|null
+German European Union at war with Neo-Soviet Union over ownership of Poland|2|-1,-1,-1,-1,-1,-1,-1,-1|1||56|null
+Oregon Government taken over by Neo-Nazi Party|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|57|null
+Super Swarm of Bees (?) Engulfing South America|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|58|null
+Mobile Boxcar Village formed by California Hobos|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|59|null
+Bro with monster tattoo claims Rockstar addiction|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|60|null
+"Brawlpunk fans disappointed by repetitive,, simplistic gameplay"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|61|null
+Diet pill recall after man implodes|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|62|null
+32 dead in ball-pit accident|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|63|null
+"Poland declares independence, summons Cthulhu"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|64|null
+British coast raided by Vikings|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|65|null
+Cactus gains sentience|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|66|null
+"Man?s consciousness put into a box, he does not want to be a box"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|67|null
+Salem woman accused of being a witch after showing he friend cloud computing|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|68|null
+Bear Grylls killed by new species of anteater|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|69|null
+"Michael Jordan experiences concussion, loses memory of Space Jam"|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|70|null
+Super Hero experiences pain for the first time|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|71|null
+"Man proposes to girl, what she does next will shock you"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|72|null
+African village destroyed by garbage fire|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|73|null
+Tasmanian Devil in negotiations with Devil on territory agreement|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|74|null
+"Airplane found to be filled with snakes, pilots delay flight"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|75|null
+Wizard escapes 4th dimension|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|76|null
+"Hundreds of monkeys typewrite Romeo & Juliet, accused of plagiarism "|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|77|null
+"Tin foil hats are a health hazard, study finds"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|78|null
+Man discovers that 39 monkeys will fit into a barrel|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|79|null
+Bears wearing bullet-proof vests roam the streets of Detroit|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|80|null
+Mutant badgers burning women and raping churches in Utah|???|2|-1,-1,-1,-1,-1,-1,-1,-1|1|81|null
+Nerds riot over new Aquaman costume|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|82|null
+"Aliens land in Johannesburg, local population steals spaceship"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|83|null
+Blood sacrifice in India opens portal to hell|Headliner?|2|-1,-1,-1,-1,-1,-1,-1,-1|1|84|null
+Dr. Mario sued for not being a real doctor|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|85|null
+"Man attempts to aid South America with an influx of bees, it does not help"|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|86|null
+Sentient Cacti form colony in the Mojave desert|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|87|null
+Sentient Cacti found to have hive mind |Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|88|null
+Sentient Cacti invade Las Vegas|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|89|null
+Vampire claims bloodbank fired him due to supernatural discrimination|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|90|null
+Nevada Werewolves concerned over silver content in water supply |Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|91|null
+New Zealand goats unite in the streets of Wellington|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|92|null
+Faux cancels popular show Butterfly much to fans dismay|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|93|null
+Study finds not being a fat piece of shit reduces rate of heart failure|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|94|null
+50 year old woman gives birth to 70 year old baby|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|95|null
+"Large fire destroys New Jersey, nation rejoices"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|96|null
+Whoopi Goldberg regrows eyebrows|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|97|null
+Ground control regains contact with Major Tom|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|98|null
+Children are ?horrid little beasts? study finds|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|99|null
