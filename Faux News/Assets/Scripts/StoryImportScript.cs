@@ -46,7 +46,7 @@ public class StoryImportScript : MonoBehaviour {
 				string[] dependenciesS = subs[6].Split (',');
 				for(int j = 0; j < dependenciesS.Length; j++){
 					int.TryParse (dependenciesS[j], out dependencies[j]);
-					dependencies[j] += 1;
+					//dependencies[j];
 				}
 				
 				// set story variables
