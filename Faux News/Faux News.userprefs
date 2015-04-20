@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StoryHandlerScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TitleScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\StoryHandlerScript.cs" Line="9" Column="12" />
+      <File FileName="Assets\TitleScript.cs" Line="9" Column="19" />
+      <File FileName="Assets\Scripts\StoryHandlerScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\StoryImportScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GameHandlerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StoryScript.cs" Line="52" Column="47" />
+      <File FileName="Assets\Scripts\StoryScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\NightlySlotScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\StartBroadcast.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CredibilityScript.cs" Line="1" Column="1" />
