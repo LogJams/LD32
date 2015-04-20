@@ -6,7 +6,7 @@ public class StoryHandlerScript : MonoBehaviour {
 	public StoryScript[] allStories;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		allStories = GetComponentsInChildren<StoryScript> ();
 	}
 
