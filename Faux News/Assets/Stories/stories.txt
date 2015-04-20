@@ -1,16 +1,16 @@
 News Story|Category|Rating Change|World State Change |Bullshit Change|Index|Dependencies
-Nicholas Cage Ravages Mexico|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|0|null
-U.S. Mint to get rid of all coins but pennies|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|1|null
-"U.S. Soldier found on Ulawa Island, thinks World War II is still going on"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|2|null
-Faux New accused of being too informative|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|3|null
-Study finds 90s weren?t 10 years ago|Filler?|2|-1,-1,-1,-1,-1,-1,-1,-1|1|4|null
-Yu-Gi-Oh Game won with Time Wizard|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|5|null
-Study finds Bulbasaur best starter|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|6|null
-"Germany takes over EU, creates Socialist Worker State"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|7|null
-Carl XVI Gustaf celebrates birthday with Turkey hat|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|8|null
-Discovery Channel accidently airs 36 hours of elephant porn|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|9|null
-Research proves Darth Vader might be Luke Skywalker?s father|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|10|null
-Werner Herzog to narrate Harry Potter spinoff ?Fantastic Beasts and Where to Find Them?|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|11|null
+Nicholas Cage Ravages Mexico|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|1|null
+U.S. Mint to get rid of all coins but pennies|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|2|null
+"U.S. Soldier found on Ulawa Island, thinks World War II is still going on"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|3|null
+Faux New accused of being too informative|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|4|null
+Study finds 90s weren?t 10 years ago|Filler?|2|-1,-1,-1,-1,-1,-1,-1,-1|1|5|null
+Yu-Gi-Oh Game won with Time Wizard|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|6|null
+Study finds Bulbasaur best starter|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|7|null
+"Germany takes over EU, creates Socialist Worker State"|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|8|null
+Carl XVI Gustaf celebrates birthday with Turkey hat|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|9|null
+Discovery Channel accidently airs 36 hours of elephant porn|Headliner|2|-1,-1,-1,-1,-1,-1,-1,-1|1|10|null
+Research proves Darth Vader might be Luke Skywalker?s father|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|11|null
+Werner Herzog to narrate Harry Potter spinoff ?Fantastic Beasts and Where to Find Them?|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|12|null
 Benedict Cumberbatch learns to poach an egg and rhinoceroses|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|12|null
 EA releases pre-order bonuses for unannounced game|Filler|2|-1,-1,-1,-1,-1,-1,-1,-1|1|13|null
 Eminem discovered to not be full of chocolate|Celebrity gossip|2|-1,-1,-1,-1,-1,-1,-1,-1|1|14|null
