@@ -25,6 +25,8 @@ public class GameHandlerScript : MonoBehaviour {
 	public Camera[] cameras;
 	public WrapUpScript wrapup;
 
+	public TextMesh storyDisplay;
+
 	// Use this for initialization
 	void Start () {
 		import = GetComponent<StoryImportScript> ();
@@ -48,6 +50,10 @@ public class GameHandlerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		storyDisplay.text = "";
+		if (currentStory != null) {
+			storyDisplay.text += currentStory.storyText;
+		}
 		for (int i = 0; i < storiesPerWeek; i++) {
 			int indexer = i;
 			if (weeklyNews[indexer] != null)
