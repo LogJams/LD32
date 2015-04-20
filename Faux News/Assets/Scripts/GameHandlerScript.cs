@@ -23,11 +23,12 @@ public class GameHandlerScript : MonoBehaviour {
 
 	public Camera afterCam;
 	public Camera[] cameras;
+	public WrapUpScript wrapup;
 
 	// Use this for initialization
 	void Start () {
 		import = GetComponent<StoryImportScript> ();
-	//	import.Load ();
+		import.Load ();
 		weeklyNews = new StoryScript[storiesPerWeek];
 		slots = GetComponentsInChildren<NightlySlotScript> ();
 		storyReels = handler.allStories;

@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\StoryScript.cs" />
      <Compile Include="Assets\Scripts\WorldStatusScript.cs" />
      <Compile Include="Assets\TitleScript.cs" />
+     <Compile Include="Assets\WrapUpScript.cs" />
      <None Include="Assets\Stories\stories.txt" />
      <None Include="Assets\Stories\testStories.txt" />
  <Reference Include="UnityEngine.UI">

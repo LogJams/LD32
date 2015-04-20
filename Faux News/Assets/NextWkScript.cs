@@ -2,14 +2,8 @@
 using System.Collections;
 
 public class NextWkScript : MonoBehaviour {
-
-
 	
-	public GUIText ratingAndCred;
-	public GUIText weeksEvents;
-	public GUIText weekScore;
-	public GameHandlerScript game ;
-
+	public GameHandlerScript game;
 
 	// Use this for initialization
 	void OnMouseOver() {
