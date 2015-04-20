@@ -21,10 +21,13 @@ public class GameHandlerScript : MonoBehaviour {
 
 	public StoryScript[] storyReels;
 
+	public Camera afterCam;
+	public Camera[] cameras;
+
 	// Use this for initialization
 	void Start () {
 		import = GetComponent<StoryImportScript> ();
-		import.Load ();
+	//	import.Load ();
 		weeklyNews = new StoryScript[storiesPerWeek];
 		slots = GetComponentsInChildren<NightlySlotScript> ();
 		storyReels = handler.allStories;
@@ -32,7 +35,11 @@ public class GameHandlerScript : MonoBehaviour {
 	}
 
 	void init() {
-		StoryHolderScript[] newsStories = import.GetRandomStories (storyReels.Length); //we should make this static...
+		for (int i = 0; i < weeklyNews.Length; i++) {
+			weeklyNews[i] = null;
+		}
+		afterCam.enabled = false;
+		StoryHolderScript[] newsStories = import.GetRandomStories (storyReels.Length);
 		for (int i = 0; i < storyReels.Length; i++) {
 			storyReels[i].SetStory(newsStories[i]);
 		}
@@ -47,6 +54,23 @@ public class GameHandlerScript : MonoBehaviour {
 			else
 				slots[i].setText ("");
 		}
+	}
+
+
+	void switchToRecap() {
+		for (int i = 0; i < cameras.Length; i++) {
+			cameras[i].enabled = false;
+		}
+		afterCam.enabled = true;
+	}
+
+
+	
+	public void nextWeek() {
+		for (int i = 0; i < cameras.Length; i++) {
+			cameras[i].enabled = true;
+		}
+		init (); //disables afterCam
 	}
 
 
@@ -78,5 +102,6 @@ public class GameHandlerScript : MonoBehaviour {
 			cred.AdjustCredibility(weeklyNews[i].credibility); //adjust credibility for each show
 			world.adjustWorld(weeklyNews[i]);
 		}
+		switchToRecap ();
 	}
 }

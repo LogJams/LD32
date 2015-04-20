@@ -6,8 +6,8 @@ public class TitleScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.anyKey) {
-			Application.LoadLevel (1);
+		if (Input.anyKeyDown) {
+			Application.LoadLevel ("MainScene");
 		}
 	}
 }
