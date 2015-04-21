@@ -15,18 +15,56 @@ public class WrapUpScript : MonoBehaviour {
 
 	float scoreChange, credChange, ratingChange, stateChange; //calculate these in WrapUp?
 
+	int storyIndex = 0;
+	float storyRuntime = 10; //seconds
+	float currentTime = 0;
+	StoryScript[] storyList ;
+
 	public void WrapUp() { //this will be called by the GameHandlerScript when the wrapup begins
 		//clean up anything old
 
 		//calculate scores
 
 		//set nightly picture based on stories?
+		score.text = "Score: " + rate.rating;
+		storyList = game.weeklyNews;
+		currentTime = storyRuntime;
+		ratCredChange.text = "This Week's Rating and Credibility: " + "404";
+
+		storyIndex = 0;
+
+		events.text = "Events this week: \n\n\n\n    " + splitStory(storyList[storyIndex].storyText);
+		storyIndex++;
+
+	}
+	void Update() { //scroll text, flash images, etc
+		if (storyList != null) {
+			currentTime -= Time.deltaTime;
+			if (currentTime <= 0) {
+				storyIndex++;
+				storyIndex = storyIndex % storyList.Length;
+				currentTime = storyRuntime;
+				events.text = "Events this week: \n\n\n\n    " + splitStory(storyList[storyIndex].storyText);
+			}
+		}
 	}
 
 
-	void Update() { //scroll text, flash images, etc
-		score.text = "Score: " + rate.rating;
-		events.text = "Events this week: \nKanye West\nKanye West\nKanye West\nKanye West\nKanye West\nKanye West";
-		ratCredChange.text = "This Week's Rating and Credibility: " + "404";
+	string splitStory(string story) {
+		int maxChars = 40; //max chars per line
+		int length = story.Length;
+		int index = 1;
+		while (length > maxChars) {
+			int splitPoint = maxChars*index;
+			while (splitPoint > (maxChars*(index-1)) && !story.Substring(splitPoint,1).Equals (" ")) {
+				splitPoint --;
+			}
+			if (splitPoint == maxChars*(index-1)+1) {
+				splitPoint = maxChars*index;
+			}
+			story = story.Insert(splitPoint, "\n   ");
+			length -= 45;
+		}
+		return story;
 	}
 }

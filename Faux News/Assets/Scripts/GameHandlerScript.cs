@@ -69,6 +69,7 @@ public class GameHandlerScript : MonoBehaviour {
 			cameras[i].enabled = false;
 		}
 		afterCam.enabled = true;
+		wrapup.WrapUp ();
 	}
 
 
