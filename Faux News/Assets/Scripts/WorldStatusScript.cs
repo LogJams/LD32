@@ -21,6 +21,11 @@ public class WorldStatusScript : MonoBehaviour {
 	Transform nAmerica, sAmerica, europe, africa, asia, oceania, middleEast, antarctica;
 	SpriteRenderer nAmSp, sAmSp, euSp, afSP, asSp, ocSp, meSp, anSp;
 
+	public float GetAverage() {
+		return (nAmericaVal + sAmericaVal + europeVal + africaVal + asiaVal + oceaniaVal + middleEastVal + antarcticaVal) / 8f;
+	}
+
+
 	// Use this for initialization
 	void Start () {
 		//get the children sprites

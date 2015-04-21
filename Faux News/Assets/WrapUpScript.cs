@@ -11,12 +11,14 @@ public class WrapUpScript : MonoBehaviour {
 	public WorldStatusScript world;
 	public CredibilityScript cred;
 
+	public PictureScript photo;
+
 	public GameHandlerScript game; //use this to get the stories of the week and their effects
 
 	float scoreChange, credChange, ratingChange, stateChange; //calculate these in WrapUp?
 
 	int storyIndex = 0;
-	float storyRuntime = 10; //seconds
+	float storyRuntime = 5; //seconds
 	float currentTime = 0;
 	StoryScript[] storyList ;
 
@@ -26,7 +28,8 @@ public class WrapUpScript : MonoBehaviour {
 		//calculate scores
 
 		//set nightly picture based on stories?
-		score.text = "Score: " + rate.rating;
+		photo.NewPicture ();
+		score.text = "Score: " + Mathf.Round(rate.rating*10)/10f;
 		storyList = game.weeklyNews;
 		currentTime = storyRuntime;
 		ratCredChange.text = "This Week's Rating and Credibility: " + "404";

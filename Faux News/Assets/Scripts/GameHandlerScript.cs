@@ -27,6 +27,8 @@ public class GameHandlerScript : MonoBehaviour {
 
 	public TextMesh storyDisplay;
 
+	int day = 0;
+
 	// Use this for initialization
 	void Start () {
 		import = GetComponent<StoryImportScript> ();
@@ -38,13 +40,20 @@ public class GameHandlerScript : MonoBehaviour {
 	}
 
 	void init() {
+		day++;
+		if (world.GetAverage() < -0.25f) {
+			Application.LoadLevel ("LoseScene");
+		}
+		if (day >= 5) {
+			Application.LoadLevel ("WinScene");
+		}
 		for (int i = 0; i < weeklyNews.Length; i++) {
 			weeklyNews[i] = null;
 		}
 		afterCam.enabled = false;
 		StoryHolderScript[] newsStories = import.GetRandomStories (storyReels.Length);
 		for (int i = 0; i < storyReels.Length; i++) {
-			storyReels[i].SetStory(newsStories[i]);
+			storyReels[i].SetStoryAll(newsStories[i]);
 		}
 	}
 	

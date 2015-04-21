@@ -110,7 +110,7 @@ public class StoryImportScript : MonoBehaviour {
 				returnObjects[i] = obj.GetComponent<StoryHolderScript>();
 				givenStories.Add (obj);
 				givenIndexList.Add (obj.GetComponent<StoryHolderScript>().index);
-				stories.RemoveAt(i);
+				stories.RemoveAt(index);
 			} else { // otherwise decrement count and search again
 				i--;
 			}

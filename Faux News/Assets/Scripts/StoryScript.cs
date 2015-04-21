@@ -64,7 +64,7 @@ public class StoryScript : MonoBehaviour {
 		text.text = txt;
 	}
 
-	void SetStoryAll(StoryHolderScript s) {
+	public void SetStoryAll(StoryHolderScript s) {
 		SetStory (s);
 		if (clone != null)
 			clone.SetStory (s);
