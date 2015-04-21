@@ -4,7 +4,7 @@ using System.IO;
 
 public class StoryImportScript : MonoBehaviour {
 	
-	string path = "Assets/Stories/stories.txt";
+	string path = "stories.txt";
 	List<GameObject> stories = new List<GameObject> ();
 	List<GameObject> givenStories = new List<GameObject> ();
 	List<int> givenIndexList = new List<int>();
@@ -38,16 +38,16 @@ public class StoryImportScript : MonoBehaviour {
 				category = subs[1];
 				int.TryParse(subs[2], out ratings);
 				string[] worldStateS = subs[3].Split (',');
-				for(int i = 0;  i < worldStateS.Length; i ++){
+				for(int i = 0;  i < 8; i ++){
 					int.TryParse (worldStateS[i], out worldState[i]);
 				}
 				int.TryParse (subs[4], out credibility);
 				int.TryParse (subs[5], out index);
-				string[] dependenciesS = subs[6].Split (',');
-				for(int j = 0; j < dependenciesS.Length; j++){
-					int.TryParse (dependenciesS[j], out dependencies[j]);
+			//	string[] dependenciesS = subs[6].Split (',');
+			//	for(int j = 0; j < dependenciesS.Length; j++){
+			//		int.TryParse (dependenciesS[j], out dependencies[j]);
 					//dependencies[j];
-				}
+			//	}
 				
 				// set story variables
 				story.storyText = text;
@@ -64,7 +64,7 @@ public class StoryImportScript : MonoBehaviour {
 				story.antarcticaEffect = worldState[7];
 				
 				story.index = index;
-				story.dependencies = dependencies;
+			//	story.dependencies = dependencies;
 				
 				// add the object to stories list
 				Debug.Log (dependencies[0]);
@@ -93,7 +93,7 @@ public class StoryImportScript : MonoBehaviour {
 			int index = Random.Range (0, stories.Count);
 			obj = stories[index];
 			// check dependencies, if the dependency is 0, no dependency exists
-			int[] dependencies = obj.GetComponent<StoryHolderScript>().dependencies;
+		/*	int[] dependencies = obj.GetComponent<StoryHolderScript>().dependencies;
 			// if this is the last set, ignore dependencies
 			if(!last){
 				for(int j = 0; j < dependencies.Length; j++){
@@ -104,7 +104,7 @@ public class StoryImportScript : MonoBehaviour {
 						}
 					}
 				}
-			}
+			}*/
 			// if there are no remaining dependencies or this is the last set
 			if(!isStillDependent){
 				returnObjects[i] = obj.GetComponent<StoryHolderScript>();

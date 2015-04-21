@@ -1,4 +1,0 @@
-News Story|Category|Rating Change|World State Change |Bullshit Change|Index|Dependencies
-Nicholas Cage Ravages Mexico|Headliner|3|1,2,3,4,5,6,7,8|2|0|null
-U.S. Mint to get rid of all coins but pennies|Headliner|5|0,0,0,0,0,0,0,5|2|1|null
-"U.S. Soldier found on Ulawa Island, thinks World War II is still going on"|Headliner|6|1,1,1,1,1,1,1,0|8|2|0,1
